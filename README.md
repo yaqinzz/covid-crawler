@@ -17,7 +17,7 @@ This is a simple web crawling application built with Node.js and Express.js to f
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/covid-crawler.git
+git https://github.com/yaqinzz/covid-crawler.git
 cd covid-crawler
 ```
 
@@ -27,18 +27,12 @@ Install the dependencies:
 npm install
 ```
 
-Ensure the following directory exists for saving the data:
-
-```bash
-mkdir data
-```
-
 ## Usage
 
 To start the application, run:
 
 ```bash
-npm start
+npm dev
 ```
 
 The server will start running on [http://localhost:3000](http://localhost:3000).
@@ -107,16 +101,3 @@ Upon a successful request, you will receive a response like this:
 - **Axios:** HTTP client for making requests
 - **xlsx:** Library for generating Excel files
 - **FS:** Node.js File System module for reading/writing files
-
-## Contributing
-
-Feel free to contribute to this project by submitting a pull request. If you find a bug or have suggestions for improvement, please open an issue.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-```
-
-You can copy and paste this into your `README.md` file. Let me know if you need any more modifications!
-```
